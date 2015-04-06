@@ -1,0 +1,15 @@
+Project Movie Trailer :-
+This provides a web page for browsing posters of my  favourite movies.
+On mouse hover, it displays the storyline.
+On mouse click it starts the movie trailer.
+It can be extended to include other details of movies easily as the code is object oriented.
+
+Files included :
+ media.py  -          Provides the definition of movie object and function to start the trailer
+ fresh_tomoatoes.py - Provides code to dynamically build html file to display the movie poster in a tile format and provides functionlity to extract trailer you tube id and start the trailer on mouse click as well as display story line on hover.
+media_try.py -        Invokes the movie object and opens the webbrowser for the movie list using the functions from media.py and fresh_tomatoes.py
+
+How to use:
+Open movie page using command   'python media_try.py'
+
+
